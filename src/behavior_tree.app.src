@@ -1,0 +1,17 @@
+{application, behavior_tree,
+    [{description, "An OTP application"},
+        {vsn, "1.0.0"},
+        {registered, []},
+        {mod, {behavior_tree_app, []}},
+        {applications,
+            [kernel,
+                stdlib,
+                runtime_tools
+            ]},
+        {env, []},
+        {modules, []},
+
+        {maintainers, []},
+        {licenses, ["Apache 2.0"]},
+        {links, []}
+    ]}.
