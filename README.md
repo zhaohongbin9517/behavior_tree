@@ -8,3 +8,7 @@ Build
 
     $ rebar3 compile
 
+测试
+-----
+    btree_lib:test().
+
